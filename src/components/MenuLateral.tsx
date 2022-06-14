@@ -1,4 +1,4 @@
-import { iconeCasa, iconeAjustes } from "./icons/index";
+import { iconeCasa, iconeAjustes,iconeFoto } from "./icons/index";
 import Logo from "./Logo";
 import MenuItem from "./MenuItem";
 
@@ -10,6 +10,7 @@ export default function MenuLateral(){
             </div>
             <ul>
                 <MenuItem url= "/" texto="Inicio" icone={iconeCasa}/>
+                <MenuItem url="imagens" texto="Imagens" icone={iconeFoto}/>
                 <MenuItem url="ajustes" texto="Ajustes" icone={iconeAjustes}/>
             </ul>
         </aside>

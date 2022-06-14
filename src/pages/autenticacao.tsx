@@ -1,5 +1,7 @@
 import AutInput from "../components/AutInput";
 import  {useState} from "react";
+import Link from "../../node_modules/next/link";
+
 
 function submeter(){
 
@@ -30,10 +32,14 @@ export default function Autenticacao(): JSX.Element{
                         valor ={senha}
                         valorMudou={setSenha}
                     />
-
-                    <button onClick={submeter} className={'first-letter:w-full bg-indigo-500 hover:bg-indigo-400 text-white rounded-lg px-4 py-3 mt-6'}>
-                        Entrar
-                    </button>
+                    <Link href="/">
+                        <button onClick={submeter} className={'first-letter:w-full bg-indigo-500 hover:bg-indigo-400 text-white rounded-lg px-4 py-3 mt-6 w-full'}>
+                            Entrar
+                        </button>
+                    
+                    </Link>
+                       
+                    
                 </div>
         </div>
     )
