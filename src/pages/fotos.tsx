@@ -7,7 +7,7 @@ export default function Fotos(){
             
         <Layout titulo="Imagens" subtitulo="Amostra de Fotografias">
             
-            <div className={'flex h-all w-screen'}>
+            <div className={'flex h-all w-screen align-center'}>
                 <div className=" flex-c hidden md:block md:w-70 lg:w-70">
                         <img 
                         src="https://source.unsplash.com/random"/>
