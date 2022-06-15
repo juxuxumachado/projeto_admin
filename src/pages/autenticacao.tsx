@@ -8,7 +8,7 @@ function submeter(){
 }
 
 
-export default function Autenticacao(): JSX.Element{
+export default function Insercao(): JSX.Element{
     const [email, setEmail]= useState('')
     const [senha, setSenha]= useState('')
     return(

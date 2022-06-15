@@ -7,7 +7,7 @@ export default function Home() {
   return(
     <Layout titulo='Imagens'
     subtitulo='Trabalhos de fotografia mundo afora'>
-      <b className='flex text-center justify-center text-2xl'>Fotografia:</b> 
+      <b className='flex text-center justify-center text-2xl'>FOTOGRAFIA:</b> 
       <p className=' flex items-center justify-center text-justify text-lg '>
       Do grego φῶς [fós] ("luz") e γραφίς [grafis] ("instrumento para escrever, gravar, desenhar ou pintar") ou γραφή [grafé] (“escrita”), significa "desenhar com luz e contraste"; noutros termos,[1] é essencialmente a técnica de criação de imagens por meio de exposição luminosa, fixando-as em uma superfície sensível.[2] A primeira fotografia reconhecida remonta ao ano de 1826 e é atribuída ao francês Joseph Nicéphore Niépce. Contudo, a invenção da fotografia não é obra de um só autor, mas um processo de acúmulo de avanços por parte de muitas pessoas, trabalhando, juntas ou em paralelo, ao longo de muitos anos. Se por um lado os princípios fundamentais da fotografia se estabeleceram há décadas e, desde a introdução do filme fotográfico colorido, quase não sofreram mudanças, por outro, os avanços tecnológicos têm sistematicamente possibilitado melhorias na qualidade das imagens produzidas, agilização das etapas do processo de produção e a redução de custos, popularizando o uso da fotografia.
 Câmera fotográfica em operação.
